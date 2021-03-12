@@ -154,6 +154,7 @@ body {
     color:#FFFFFF;
     margin-left: 12px;
 }
+
 .dots {
     display: flex;
     justify-content: space-between;
@@ -164,7 +165,7 @@ body {
 }
 
 
-  .slider__dots-item {
+.slider__dots-item {
     width: 10px;
     height: 10px;
     background: rgba(255, 255, 255, 0.3);
@@ -173,15 +174,14 @@ body {
     cursor: pointer;
     transition: ease;
   }
-  .slider__dots-item:hover, .slider__dots-item.active {
-    color:#FFFFFF;
+.slider__dots-item.active {
+    background-color:#FFFFFF;
   }
 
-.slider__dots-item:active {
-    
-}
+
 .slider__dots-item:hover {
-    color:#FFFFFF; 
+   background-color:#FFFFFF; 
+    text-decoration: none;
 }
 
   
